@@ -18,7 +18,7 @@ def validate_input(input_str, input_type):
 
 
 
-print(validate_input("example@example.com", "email"))  # True
+print(validate_input("guvi@example.com", "email"))  # True
 print(validate_input("+8801712345678", "bd_mobile"))  # True
 print(validate_input("01712345678", "bd_mobile"))  # True
 print(validate_input("(123) 456-7890", "us_telephone"))  # True
